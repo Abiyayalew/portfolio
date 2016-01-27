@@ -10,6 +10,15 @@ body{
     color:chocolate;
     font-weight: 200;
     font-style:oblique;
+    text-shadow:2px 2px 3px gray;
+}
+.header img {
+    border-radius:50%;
+
+}
+.header img:hover {
+    transform:scale(1.09);
+    cursor:pointer;
 }
 .projects h3{
     text-align:center;
@@ -21,11 +30,13 @@ body{
     margin-top:20px;
     margin-bottom:10px;
     padding:10px 10px;
+}
 
 .navbar{
     border-radius:10px;
 }
-}
+
+
 .projects{
     
     background:#eee;
@@ -43,6 +54,12 @@ Ul.tech li {
     padding:5px;
     background:brown;
     
+}
+ul.tech li:hover {
+    background:blue;
+    border-radius:10px;
+    transition:.5s ease-in-out;
+    cursor:pointer;
 }
 .project-image{
     text-align:center;
