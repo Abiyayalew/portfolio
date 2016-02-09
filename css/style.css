@@ -1,67 +1,79 @@
 *{
-    margin:0;
-    padding=0;
-        
+	margin:0;
+	padding=0;
+	
 }
 body{
-    background:#666;
+	background:silver;
 }
 .header h3{
-    color:chocolate;
-    font-weight: 200;
-    font-style:oblique;
-    text-shadow:2px 2px 3px gray;
+	color:chocolate;
+	font-weight: 200;
+	font-style:oblique;
+	text-shadow:2px 2px 3px gray;
 }
 .header img {
-    border-radius:50%;
+	border-radius:50%;
 
 }
 .header img:hover {
-    transform:scale(1.09);
-    cursor:pointer;
+	transform:scale(1.09);
+	cursor:pointer;
 }
 .projects h3{
-    text-align:center;
-    font-weight: 300;
+	text-align:center;
+	font-weight: 300;
 }
 .header{
-    background-color:#eee;
-    border-radius:10px;
-    margin-top:20px;
-    margin-bottom:10px;
-    padding:10px 10px;
+	background-color:#eee;
+	border-radius:10px;
+	margin-top:20px;
+	margin-bottom:10px;
+	padding:10px 10px;
 }
 
 .navbar{
-    border-radius:10px;
+	border-radius:10px;
 }
 
 
 .projects{
-    
-    background:#eee;
-    margin-top:10px;
-    border-radius:10px;
-    padding-top:10px;
+	
+	background:#eee;
+	margin-top:10px;
+	border-radius:10px;
+	padding-top:10px;
 }
-    
+
 
 Ul.tech li {
 	border-radius:5px;
-    color:#fff;
-    display:inline-flex;
-    margin:5px 0;
-    padding:5px;
-    background:brown;
-    
+	color:#fff;
+	display:inline-flex;
+	margin:5px 0;
+	padding:5px;
+	background:brown;
+	
 }
 ul.tech li:hover {
-    background:blue;
-    border-radius:10px;
-    transition:.5s ease-in-out;
-    cursor:pointer;
+	background:blue;
+	border-radius:10px;
+	transition:.5s ease-in-out;
+	cursor:pointer;
 }
 .project-image{
-    text-align:center;
-    
+	text-align:center;
+	
+}
+.footer {
+	background:#333;
+	color:#fff;
+	margin:10px auto;
+	padding:10px 20px;
+	height:50px;
+	border-radius:10px;
+
+}
+.footer p {
+	text-align:center
 }
